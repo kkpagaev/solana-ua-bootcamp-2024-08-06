@@ -6,7 +6,7 @@ fn main() {
         thread::spawn(move || {
             loop {
                 let key = Keypair::new();
-                if key.to_base58_string().starts_with("vlad") {
+                if key.to_base58_string().starts_with("VLAD") {
                     println!("{}", key.to_base58_string());
                 }
             }

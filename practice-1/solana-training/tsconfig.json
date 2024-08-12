@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "paths": {
+      "src/*": ["./src/*"]
+    },
+    "outDir": "dist",
+    "noUncheckedIndexedAccess": true,
+    "declaration": true,
+    "removeComments": false,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "sourceMap": true,
+    "incremental": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": true,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "lib": ["es2022"],
+    "moduleResolution": "Bundler",
+    "noEmit": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "es2022",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "module": "ESNext"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
